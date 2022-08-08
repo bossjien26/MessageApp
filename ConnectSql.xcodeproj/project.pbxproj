@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DB0140C028A14A4000EA3336 /* ConnectSqlApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB0140BF28A14A4000EA3336 /* ConnectSqlApp.swift */; };
+		DB0140C228A14A4000EA3336 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB0140C128A14A4000EA3336 /* ContentView.swift */; };
+		DB0140C428A14A4100EA3336 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB0140C328A14A4100EA3336 /* Assets.xcassets */; };
+		DB0140C728A14A4100EA3336 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB0140C628A14A4100EA3336 /* Preview Assets.xcassets */; };
+		DB0140D128A14A4100EA3336 /* ConnectSqlTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB0140D028A14A4100EA3336 /* ConnectSqlTests.swift */; };
+		DB0140DB28A14A4100EA3336 /* ConnectSqlUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB0140DA28A14A4100EA3336 /* ConnectSqlUITests.swift */; };
+		DB0140DD28A14A4100EA3336 /* ConnectSqlUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB0140DC28A14A4100EA3336 /* ConnectSqlUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DB0140CD28A14A4100EA3336 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DB0140B428A14A4000EA3336 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DB0140BB28A14A4000EA3336;
+			remoteInfo = ConnectSql;
+		};
+		DB0140D728A14A4100EA3336 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DB0140B428A14A4000EA3336 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DB0140BB28A14A4000EA3336;
+			remoteInfo = ConnectSql;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DB0140BC28A14A4000EA3336 /* ConnectSql.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ConnectSql.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB0140BF28A14A4000EA3336 /* ConnectSqlApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectSqlApp.swift; sourceTree = "<group>"; };
+		DB0140C128A14A4000EA3336 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DB0140C328A14A4100EA3336 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DB0140C628A14A4100EA3336 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DB0140CC28A14A4100EA3336 /* ConnectSqlTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ConnectSqlTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB0140D028A14A4100EA3336 /* ConnectSqlTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectSqlTests.swift; sourceTree = "<group>"; };
+		DB0140D628A14A4100EA3336 /* ConnectSqlUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ConnectSqlUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB0140DA28A14A4100EA3336 /* ConnectSqlUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectSqlUITests.swift; sourceTree = "<group>"; };
+		DB0140DC28A14A4100EA3336 /* ConnectSqlUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectSqlUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DB0140B928A14A4000EA3336 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB0140C928A14A4100EA3336 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB0140D328A14A4100EA3336 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DB0140B328A14A4000EA3336 = {
+			isa = PBXGroup;
+			children = (
+				DB0140BE28A14A4000EA3336 /* ConnectSql */,
+				DB0140CF28A14A4100EA3336 /* ConnectSqlTests */,
+				DB0140D928A14A4100EA3336 /* ConnectSqlUITests */,
+				DB0140BD28A14A4000EA3336 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DB0140BD28A14A4000EA3336 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DB0140BC28A14A4000EA3336 /* ConnectSql.app */,
+				DB0140CC28A14A4100EA3336 /* ConnectSqlTests.xctest */,
+				DB0140D628A14A4100EA3336 /* ConnectSqlUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DB0140BE28A14A4000EA3336 /* ConnectSql */ = {
+			isa = PBXGroup;
+			children = (
+				DB0140BF28A14A4000EA3336 /* ConnectSqlApp.swift */,
+				DB0140C128A14A4000EA3336 /* ContentView.swift */,
+				DB0140C328A14A4100EA3336 /* Assets.xcassets */,
+				DB0140C528A14A4100EA3336 /* Preview Content */,
+			);
+			path = ConnectSql;
+			sourceTree = "<group>";
+		};
+		DB0140C528A14A4100EA3336 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				DB0140C628A14A4100EA3336 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DB0140CF28A14A4100EA3336 /* ConnectSqlTests */ = {
+			isa = PBXGroup;
+			children = (
+				DB0140D028A14A4100EA3336 /* ConnectSqlTests.swift */,
+			);
+			path = ConnectSqlTests;
+			sourceTree = "<group>";
+		};
+		DB0140D928A14A4100EA3336 /* ConnectSqlUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DB0140DA28A14A4100EA3336 /* ConnectSqlUITests.swift */,
+				DB0140DC28A14A4100EA3336 /* ConnectSqlUITestsLaunchTests.swift */,
+			);
+			path = ConnectSqlUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DB0140BB28A14A4000EA3336 /* ConnectSql */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB0140E028A14A4100EA3336 /* Build configuration list for PBXNativeTarget "ConnectSql" */;
+			buildPhases = (
+				DB0140B828A14A4000EA3336 /* Sources */,
+				DB0140B928A14A4000EA3336 /* Frameworks */,
+				DB0140BA28A14A4000EA3336 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ConnectSql;
+			productName = ConnectSql;
+			productReference = DB0140BC28A14A4000EA3336 /* ConnectSql.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DB0140CB28A14A4100EA3336 /* ConnectSqlTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB0140E328A14A4100EA3336 /* Build configuration list for PBXNativeTarget "ConnectSqlTests" */;
+			buildPhases = (
+				DB0140C828A14A4100EA3336 /* Sources */,
+				DB0140C928A14A4100EA3336 /* Frameworks */,
+				DB0140CA28A14A4100EA3336 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DB0140CE28A14A4100EA3336 /* PBXTargetDependency */,
+			);
+			name = ConnectSqlTests;
+			productName = ConnectSqlTests;
+			productReference = DB0140CC28A14A4100EA3336 /* ConnectSqlTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DB0140D528A14A4100EA3336 /* ConnectSqlUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB0140E628A14A4100EA3336 /* Build configuration list for PBXNativeTarget "ConnectSqlUITests" */;
+			buildPhases = (
+				DB0140D228A14A4100EA3336 /* Sources */,
+				DB0140D328A14A4100EA3336 /* Frameworks */,
+				DB0140D428A14A4100EA3336 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DB0140D828A14A4100EA3336 /* PBXTargetDependency */,
+			);
+			name = ConnectSqlUITests;
+			productName = ConnectSqlUITests;
+			productReference = DB0140D628A14A4100EA3336 /* ConnectSqlUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DB0140B428A14A4000EA3336 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					DB0140BB28A14A4000EA3336 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					DB0140CB28A14A4100EA3336 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = DB0140BB28A14A4000EA3336;
+					};
+					DB0140D528A14A4100EA3336 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = DB0140BB28A14A4000EA3336;
+					};
+				};
+			};
+			buildConfigurationList = DB0140B728A14A4000EA3336 /* Build configuration list for PBXProject "ConnectSql" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DB0140B328A14A4000EA3336;
+			productRefGroup = DB0140BD28A14A4000EA3336 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DB0140BB28A14A4000EA3336 /* ConnectSql */,
+				DB0140CB28A14A4100EA3336 /* ConnectSqlTests */,
+				DB0140D528A14A4100EA3336 /* ConnectSqlUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DB0140BA28A14A4000EA3336 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB0140C728A14A4100EA3336 /* Preview Assets.xcassets in Resources */,
+				DB0140C428A14A4100EA3336 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB0140CA28A14A4100EA3336 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB0140D428A14A4100EA3336 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DB0140B828A14A4000EA3336 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB0140C228A14A4000EA3336 /* ContentView.swift in Sources */,
+				DB0140C028A14A4000EA3336 /* ConnectSqlApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB0140C828A14A4100EA3336 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB0140D128A14A4100EA3336 /* ConnectSqlTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB0140D228A14A4100EA3336 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB0140DD28A14A4100EA3336 /* ConnectSqlUITestsLaunchTests.swift in Sources */,
+				DB0140DB28A14A4100EA3336 /* ConnectSqlUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DB0140CE28A14A4100EA3336 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DB0140BB28A14A4000EA3336 /* ConnectSql */;
+			targetProxy = DB0140CD28A14A4100EA3336 /* PBXContainerItemProxy */;
+		};
+		DB0140D828A14A4100EA3336 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DB0140BB28A14A4000EA3336 /* ConnectSql */;
+			targetProxy = DB0140D728A14A4100EA3336 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		DB0140DE28A14A4100EA3336 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DB0140DF28A14A4100EA3336 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DB0140E128A14A4100EA3336 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ConnectSql/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = swiftProj.ConnectSql;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DB0140E228A14A4100EA3336 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ConnectSql/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = swiftProj.ConnectSql;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DB0140E428A14A4100EA3336 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = swiftProj.ConnectSqlTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ConnectSql.app/ConnectSql";
+			};
+			name = Debug;
+		};
+		DB0140E528A14A4100EA3336 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = swiftProj.ConnectSqlTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ConnectSql.app/ConnectSql";
+			};
+			name = Release;
+		};
+		DB0140E728A14A4100EA3336 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = swiftProj.ConnectSqlUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ConnectSql;
+			};
+			name = Debug;
+		};
+		DB0140E828A14A4100EA3336 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = swiftProj.ConnectSqlUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ConnectSql;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DB0140B728A14A4000EA3336 /* Build configuration list for PBXProject "ConnectSql" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB0140DE28A14A4100EA3336 /* Debug */,
+				DB0140DF28A14A4100EA3336 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB0140E028A14A4100EA3336 /* Build configuration list for PBXNativeTarget "ConnectSql" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB0140E128A14A4100EA3336 /* Debug */,
+				DB0140E228A14A4100EA3336 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB0140E328A14A4100EA3336 /* Build configuration list for PBXNativeTarget "ConnectSqlTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB0140E428A14A4100EA3336 /* Debug */,
+				DB0140E528A14A4100EA3336 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB0140E628A14A4100EA3336 /* Build configuration list for PBXNativeTarget "ConnectSqlUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB0140E728A14A4100EA3336 /* Debug */,
+				DB0140E828A14A4100EA3336 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DB0140B428A14A4000EA3336 /* Project object */;
+}
