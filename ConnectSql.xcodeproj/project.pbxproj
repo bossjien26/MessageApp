@@ -8,12 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		DB0140C028A14A4000EA3336 /* ConnectSqlApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB0140BF28A14A4000EA3336 /* ConnectSqlApp.swift */; };
-		DB0140C228A14A4000EA3336 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB0140C128A14A4000EA3336 /* ContentView.swift */; };
+		DB0140C228A14A4000EA3336 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB0140C128A14A4000EA3336 /* LoginView.swift */; };
 		DB0140C428A14A4100EA3336 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB0140C328A14A4100EA3336 /* Assets.xcassets */; };
 		DB0140C728A14A4100EA3336 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB0140C628A14A4100EA3336 /* Preview Assets.xcassets */; };
 		DB0140D128A14A4100EA3336 /* ConnectSqlTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB0140D028A14A4100EA3336 /* ConnectSqlTests.swift */; };
 		DB0140DB28A14A4100EA3336 /* ConnectSqlUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB0140DA28A14A4100EA3336 /* ConnectSqlUITests.swift */; };
 		DB0140DD28A14A4100EA3336 /* ConnectSqlUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB0140DC28A14A4100EA3336 /* ConnectSqlUITestsLaunchTests.swift */; };
+		DB0C6F7528A7EAC5000C49D4 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB0C6F7428A7EAC5000C49D4 /* MenuView.swift */; };
+		DB0C6F7728A7EAFD000C49D4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB0C6F7628A7EAFD000C49D4 /* ContentView.swift */; };
+		DB7B55C928A69DAC007E5837 /* SignInController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB7B55C828A69DAC007E5837 /* SignInController.swift */; };
+		DB7B55CE28A69E1E007E5837 /* SignInEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB7B55CD28A69E1E007E5837 /* SignInEnum.swift */; };
+		DB7B55D028A6A0E7007E5837 /* LoginResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB7B55CF28A6A0E7007E5837 /* LoginResponse.swift */; };
+		DBF07D7A28A14BC5005C1141 /* HomePageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBF07D7928A14BC5005C1141 /* HomePageController.swift */; };
+		DBF07D8B28A3DCB8005C1141 /* ApiResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBF07D8A28A3DCB8005C1141 /* ApiResponse.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +43,7 @@
 /* Begin PBXFileReference section */
 		DB0140BC28A14A4000EA3336 /* ConnectSql.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ConnectSql.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB0140BF28A14A4000EA3336 /* ConnectSqlApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectSqlApp.swift; sourceTree = "<group>"; };
-		DB0140C128A14A4000EA3336 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DB0140C128A14A4000EA3336 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		DB0140C328A14A4100EA3336 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DB0140C628A14A4100EA3336 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		DB0140CC28A14A4100EA3336 /* ConnectSqlTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ConnectSqlTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +51,14 @@
 		DB0140D628A14A4100EA3336 /* ConnectSqlUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ConnectSqlUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB0140DA28A14A4100EA3336 /* ConnectSqlUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectSqlUITests.swift; sourceTree = "<group>"; };
 		DB0140DC28A14A4100EA3336 /* ConnectSqlUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectSqlUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		DB0C6F7428A7EAC5000C49D4 /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
+		DB0C6F7628A7EAFD000C49D4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DB7B55C828A69DAC007E5837 /* SignInController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInController.swift; sourceTree = "<group>"; };
+		DB7B55CD28A69E1E007E5837 /* SignInEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInEnum.swift; sourceTree = "<group>"; };
+		DB7B55CF28A6A0E7007E5837 /* LoginResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginResponse.swift; sourceTree = "<group>"; };
+		DB7B55D128A78A6A007E5837 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		DBF07D7928A14BC5005C1141 /* HomePageController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageController.swift; sourceTree = "<group>"; };
+		DBF07D8A28A3DCB8005C1141 /* ApiResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiResponse.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,8 +109,12 @@
 		DB0140BE28A14A4000EA3336 /* ConnectSql */ = {
 			isa = PBXGroup;
 			children = (
+				DB7B55D128A78A6A007E5837 /* Info.plist */,
+				DB7B55CA28A69DCA007E5837 /* Enums */,
+				DBF07D8628A3DC52005C1141 /* Models */,
+				DBF07D7F28A3DB21005C1141 /* Views */,
+				DBF07D7828A14B03005C1141 /* Controller */,
 				DB0140BF28A14A4000EA3336 /* ConnectSqlApp.swift */,
-				DB0140C128A14A4000EA3336 /* ContentView.swift */,
 				DB0140C328A14A4100EA3336 /* Assets.xcassets */,
 				DB0140C528A14A4100EA3336 /* Preview Content */,
 			);
@@ -125,6 +144,50 @@
 				DB0140DC28A14A4100EA3336 /* ConnectSqlUITestsLaunchTests.swift */,
 			);
 			path = ConnectSqlUITests;
+			sourceTree = "<group>";
+		};
+		DB7B55CA28A69DCA007E5837 /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				DB7B55CD28A69E1E007E5837 /* SignInEnum.swift */,
+			);
+			name = Enums;
+			sourceTree = "<group>";
+		};
+		DBF07D7828A14B03005C1141 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				DBF07D7928A14BC5005C1141 /* HomePageController.swift */,
+				DB7B55C828A69DAC007E5837 /* SignInController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		DBF07D7F28A3DB21005C1141 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				DB0140C128A14A4000EA3336 /* LoginView.swift */,
+				DB0C6F7428A7EAC5000C49D4 /* MenuView.swift */,
+				DB0C6F7628A7EAFD000C49D4 /* ContentView.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		DBF07D8628A3DC52005C1141 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				DBF07D8728A3DC8A005C1141 /* Dto */,
+				DBF07D8A28A3DCB8005C1141 /* ApiResponse.swift */,
+				DB7B55CF28A6A0E7007E5837 /* LoginResponse.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		DBF07D8728A3DC8A005C1141 /* Dto */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Dto;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,8 +320,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DB0140C228A14A4000EA3336 /* ContentView.swift in Sources */,
+				DB7B55CE28A69E1E007E5837 /* SignInEnum.swift in Sources */,
+				DB0140C228A14A4000EA3336 /* LoginView.swift in Sources */,
+				DB7B55C928A69DAC007E5837 /* SignInController.swift in Sources */,
+				DB0C6F7528A7EAC5000C49D4 /* MenuView.swift in Sources */,
 				DB0140C028A14A4000EA3336 /* ConnectSqlApp.swift in Sources */,
+				DB0C6F7728A7EAFD000C49D4 /* ContentView.swift in Sources */,
+				DBF07D7A28A14BC5005C1141 /* HomePageController.swift in Sources */,
+				DB7B55D028A6A0E7007E5837 /* LoginResponse.swift in Sources */,
+				DBF07D8B28A3DCB8005C1141 /* ApiResponse.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -419,6 +489,9 @@
 				DEVELOPMENT_ASSET_PATHS = "\"ConnectSql/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ConnectSql/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -447,6 +520,9 @@
 				DEVELOPMENT_ASSET_PATHS = "\"ConnectSql/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ConnectSql/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
